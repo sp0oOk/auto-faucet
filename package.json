@@ -1,0 +1,21 @@
+{
+  "name": "auto-faucet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc && node build/main.js",
+    "prod": "tsc && node build/main.js >> log.log &",
+    "lint": "eslint . --fix --ext .ts"
+  },
+  "keywords": [],
+  "author": "spook",
+  "license": "ISC",
+  "dependencies": {
+    "@types/puppeteer": "^5.4.6",
+    "puppeteer": "^18.0.5",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.6",
+    "puppeteer-extra-plugin-recaptcha-capmonster": "^1.0.5"
+  }
+}

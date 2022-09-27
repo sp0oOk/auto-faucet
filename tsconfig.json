@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "build",
+      "strict": true,
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true
+    },
+    "lib": ["es2015"]
+  }
